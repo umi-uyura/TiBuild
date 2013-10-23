@@ -1,0 +1,51 @@
+{
+  "options": {
+    "log-level": "debug"
+  },
+  "ios": {
+    "options": {},
+    "simulator": "retina",
+    "developer": {
+      "pp_uuid": "DEVELOPER_UUID",
+      "name": "DEVELOPER_NAME"
+    },
+    "distribution": {
+      "pp_uuid": "DISTRIBUTION_UUID",
+      "name": "DISTRIBUTION_NAME"
+    },
+    "adhoc": {
+      "pp_uuid": "ADHOC_UUID",
+      "name": "ADHOC_NAME",
+      "output_dir": "ADHOC_OUTPUTDIR"
+    }
+  },
+  "android": {
+    "options": {
+      "force": true
+    },
+    "avd": {
+      "id": "AVD_ID",
+      "skin": "AVD_SIKN",
+      "abi": "AVD_ABI"
+    },
+    "distribution": {
+      "keystore": "DIST_KEYSTORE",
+      "alias": "DIST_ALIAS",
+      "password": "DIST_PASSWORD",
+      "output_dir": "DIST_OUTPUT_DIR"
+    }
+  },
+  "testflight": {
+    "appname": "APPNAME",
+    "api_token": "API_TOKEN",
+    "team_token": "TEAM_TOKEN",
+    "distribution_lists": "DISTRIBUTION_LIST",
+    "notify": true,
+    "replace": true
+  },
+  "tishadow": {
+    "host": "",
+    "port": "",
+    "room": ""
+  }
+}

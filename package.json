@@ -1,0 +1,25 @@
+{
+  "name": "tibuild",
+  "version": "0.0.1",
+  "description": "Building titanium application based on prior configration and then upload to TestFlight or run TiShadow",
+  "keywords": [
+    "titanium",
+    "build",
+    "cli",
+    "testflight",
+    "tishadow"
+  ],
+  "author": "Umi Uyura",
+  "license": "MIT",
+  "bin": {
+    "tibuild": "./bin/tibuild"
+  },
+  "main": "./lib/tibuild.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "underscore": "~1.5.2",
+    "optimist": "~0.6.0"
+  }
+}
