@@ -23,11 +23,6 @@
     "options": {
       "force": true
     },
-    "avd": {
-      "id": "AVD_ID",
-      "skin": "AVD_SIKN",
-      "abi": "AVD_ABI"
-    },
     "distribution": {
       "keystore": "DIST_KEYSTORE",
       "alias": "DIST_ALIAS",
