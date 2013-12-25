@@ -1,6 +1,6 @@
 {
   "name": "TiBuild",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Building titanium application based on prior configration and then upload to TestFlight or run TiShadow",
   "keywords": [
     "titanium",
